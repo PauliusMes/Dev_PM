@@ -1,0 +1,97 @@
+body{
+    padding: 30px;
+   margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;}
+
+    img{
+        height: 30px;
+        width: 150px;
+    }
+    
+   main{
+       margin-top: 80px;
+   } 
+
+section.navigation{
+    display: flex;
+}
+
+ .burger{
+    height: 30px;
+    width: 30px;
+ }
+
+ nav{
+     display: none;
+ }
+
+
+.launching {
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.center-gradient-background {
+
+    width: 100%;
+    height: 100px;
+    background-image: url(./assets/background.svg);
+background-size: cover;
+    padding: 80px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.up-left{
+display: block;
+margin: 0px;
+}
+
+h6{color: #FF3998;
+margin: 0px;
+}
+
+button{
+  border-color: red orange;
+    border-radius: 30px ;
+    padding: 10px;
+    width: 100px;
+    background: none;
+    
+}
+
+.up-right{
+    height: 300px;
+    width: 500px;
+    ;
+}
+
+
+ @media screen and (min-width: 768px){
+   .burger{
+   display: none;
+   }
+   
+   nav{
+    display: flex;
+    
+
+    a{
+        padding: 15px;
+    }
+    
+    .Sing-up{
+        color: #FF3998;
+    }
+}
+ }
+
