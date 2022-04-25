@@ -1,0 +1,216 @@
+body{
+    padding: 30px;
+   margin:  auto;
+   background-color: #EEEEEE;
+  
+ 
+}
+h5{
+    font-size: 12px;
+    color: #7d2fe2;
+    margin: 0;
+    font-weight: 100;
+    
+    
+}
+.page{
+   background-color: white; 
+   border-radius: 10px;
+   padding: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;}
+
+    img{
+        height: 30px;
+        width: 150px;
+    }
+    
+   main{
+       margin-top: 80px;
+   } 
+
+section.navigation{
+    display: flex;
+}
+
+ .burger{
+    height: 30px;
+    width: 30px;
+ }
+
+ nav{
+     display: none;
+ }
+
+
+.launching {
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.center-gradient-background {
+
+    width: auto;
+    height: 70px;
+    background-image: url(./assets/background.svg);
+    background-size: cover;
+    padding: 60px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 60px 0px;
+    flex-wrap: wrap;
+    padding: 50px 0px 50px 0px;
+    
+    
+}
+
+
+
+div.up-left{
+display: block;
+margin: 0px;
+}
+
+h6{color: #FF3998;
+margin: 0px;
+}
+
+button{
+ border-color: red orange;
+    border-radius: 30px ;
+    padding: 10px;
+    width: 100px;
+    background: none;
+    
+}
+
+.up-right{
+    height: 300px;
+    width: 500px;
+    ;
+}
+
+.text1{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text2{
+    font-size: 12px;
+    font-weight: 100;
+    color: #555555;
+}
+
+.OpenSea{
+    text-decoration: underline;
+}
+
+ .card-box{
+    
+    
+    display: flex;
+    
+    
+    
+    .photo{
+      
+        width: 180px;
+        height: fit-content;
+     
+      
+     }
+}
+
+.card{
+    margin: auto ;
+    border-radius: 15px;
+    width: 180px;
+    height: 260px;
+    margin-top: 20px;
+    
+    
+    background-color: #EEEEEE;
+}
+
+.table-heading-left, .table-heading-right {
+    font-size: 8px;
+}
+
+.table-heading-left{
+    color: #FF8139;
+}
+ 
+.table-heading-right{
+    color: #777777;
+}
+
+.table-middle{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.table-bottom{
+    font-size: 10px;
+    color: #777777;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 5px;
+}
+
+.card-underline{
+    border-bottom: 2px solid #EEEEEE;
+    margin: 80px 20px 60px 20px;
+    
+}
+
+.card-underline-style1{
+    border-bottom: 2px solid #EEEEEE;
+    margin: 0px 20px 60px 20px;
+}
+
+// jei ekranas  platesnis nei 768px tuomet rodys
+ @media screen and (min-width: 768px){
+   .burger{
+   display: none;
+   }
+   
+
+   nav{
+    display: flex;
+    
+
+    a{
+        padding: 15px;
+    }
+    
+    .Sing-up{
+        color: #FF3998;
+    }
+}
+
+
+
+ }
+
